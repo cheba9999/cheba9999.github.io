@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Мой сайт</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f6f9;
+        }
+        header {
+            background-color: #2fc6f6;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #1eb2e3;
+            padding: 10px;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-size: 18px;
+        }
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        form {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 15px;
+        }
+        form label {
+            flex: 1 1 45%;
+            display: flex;
+            flex-direction: column;
+            font-weight: bold;
+            font-size: 14px;
+        }
+        form input[type="text"] {
+            padding: 8px;
+            margin-top: 5px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            font-size: 16px;
+        }
+        form button {
+            margin-top: 20px;
+            padding: 10px 20px;
+            background-color: #2fc6f6;
+            border: none;
+            color: white;
+            font-size: 16px;
+            border-radius: 5px;
+            cursor: pointer;
+            align-self: flex-start;
+        }
+        form button:hover {
+            background-color: #1eb2e3;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Добро пожаловать на мой сайт!</h1>
+    </header>
+    <nav>
+        <a href="#">Главная</a>
+        <a href="#">О нас</a>
+        <a href="#">Контакты</a>
+    </nav>
+    <div class="container">
+        <h2>О нашем проекте</h2>
+        <p>Это простая стартовая страница, которую можно расширить и доработать под свои нужды.</p>
+
+        <form action="#" method="post">
+            <label>Поле 1
+                <input type="text" name="field1" />
+            </label>
+            <label>Поле 2
+                <input type="text" name="field2" />
+            </label>
+            <label>Поле 3
+                <input type="text" name="field3" />
+            </label>
+            <label>Поле 4
+                <input type="text" name="field4" />
+            </label>
+            <label>Поле 5
+                <input type="text" name="field5" />
+            </label>
+            <label>Поле 6
+                <input type="text" name="field6" />
+            </label>
+            <label>Поле 7
+                <input type="text" name="field7" />
+            </label>
+            <label>Поле 8
+                <input type="text" name="field8" />
+            </label>
+            <label>Поле 9
+                <input type="text" name="field9" />
+            </label>
+            <label>Поле 10
+                <input type="text" name="field10" />
+            </label>
+            <label>Поле 11
+                <input type="text" name="field11" />
+            </label>
+            <label>Поле 12
+                <input type="text" name="field12" />
+            </label>
+            <label>Поле 13
+                <input type="text" name="field13" />
+            </label>
+            <label>Поле 14
+                <input type="text" name="field14" />
+            </label>
+            <label>Поле 15
+                <input type="text" name="field15" />
+            </label>
+            <button type="submit">Отправить</button>
+        </form>
+    </div>
+</body>
+</html>
